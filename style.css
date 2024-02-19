@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: rgb(17, 99, 134);
+}
+
+header{
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(18, 1, 43, 0.568), rgba(0, 0, 0, 0));
+    padding-top: 50px;
+}
+
+main{
+    height: 500px;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 50px;
+
+}
+.poisk{
+    width: 500px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(230, 231, 241);
+    box-shadow: 1px 1px black;
+    border: 2px solid #7BA7AB;
+}
+.poisk:hover{
+    background-color: rgb(230, 231, 241);
+    animation-name:bruh;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+@keyframes bruh{
+    0%{}
+    100%{opacity: 0.9;}
+}
+.poisk:active{
+    background-color: rgb(230, 231, 241);   
+    opacity: 1;
+}
